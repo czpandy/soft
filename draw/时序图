@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T08:04:29.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="H9u2v8oAhWEJMJ6GBcuE" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-26T08:15:20.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UlXU8va71VbU9EAEk4ol" version="20.6.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1922" dy="1394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="61" y="30" width="100" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="IT7cwjkKlRti0Geff2i2-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IT7cwjkKlRti0Geff2i2-11">
-          <mxGeometry x="45" y="100" width="10" height="230" as="geometry" />
+          <mxGeometry x="45" y="90" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="IT7cwjkKlRti0Geff2i2-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IT7cwjkKlRti0Geff2i2-11">
           <mxGeometry x="45" y="390" width="10" height="230" as="geometry" />
@@ -116,9 +116,9 @@
         <mxCell id="IT7cwjkKlRti0Geff2i2-33" value="1、蓝牙版&lt;br&gt;设备与手机直连" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry y="110" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="IT7cwjkKlRti0Geff2i2-46" value="&lt;span style=&quot;font-family: Helvetica; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;2、http请求设备参数&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="IT7cwjkKlRti0Geff2i2-3">
+        <mxCell id="IT7cwjkKlRti0Geff2i2-46" value="&lt;span style=&quot;font-family: Helvetica; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;2、http请求设备参数&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="140" as="sourcePoint" />
+            <mxPoint x="330" y="140" as="sourcePoint" />
             <mxPoint x="830" y="140" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
@@ -132,14 +132,12 @@
             <mxPoint x="310" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IT7cwjkKlRti0Geff2i2-58" value="1、MQTT上行指令&lt;br&gt;开关请求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.075;exitY=0.097;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IT7cwjkKlRti0Geff2i2-54" target="IT7cwjkKlRti0Geff2i2-7">
+        <mxCell id="IT7cwjkKlRti0Geff2i2-58" value="1、MQTT上行指令&lt;br&gt;开关请求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.911;exitY=0.098;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IT7cwjkKlRti0Geff2i2-54" target="IT7cwjkKlRti0Geff2i2-7">
           <mxGeometry x="-0.6228" relative="1" as="geometry">
-            <mxPoint x="120" y="440" as="sourcePoint" />
+            <mxPoint x="130" y="442" as="sourcePoint" />
             <mxPoint as="offset" />
             <mxPoint x="329" y="440" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="120" y="442" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IT7cwjkKlRti0Geff2i2-59" value="2、WIFI版&lt;br&gt;设备集成阿里云物联网SDK" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -164,18 +162,6 @@
               <mxPoint x="660.5" y="567" />
             </Array>
             <mxPoint x="830" y="627" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IT7cwjkKlRti0Geff2i2-67" value="返回回执" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.032;exitY=0.171;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IT7cwjkKlRti0Geff2i2-56">
-          <mxGeometry x="0.0379" y="20" relative="1" as="geometry">
-            <mxPoint x="110" y="460" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="440" y="460" />
-              <mxPoint x="345.5" y="500" />
-              <mxPoint x="375.5" y="500" />
-            </Array>
-            <mxPoint x="545" y="500" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
