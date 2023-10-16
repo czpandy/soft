@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T11:29:22.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="WvBAXx-WUFfAswQ33V6B" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T11:35:20.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="Pk8-OndzYtqeVx4Cgmsa" version="21.7.4" type="github">
   <diagram name="第 1 页" id="_E1_B4NnV857_4SNeRNT">
     <mxGraphModel dx="1661" dy="2303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,9 +51,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tiI2DZFde3NhL8ovrC6l-57" value="功能验证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="tiI2DZFde3NhL8ovrC6l-56">
+        <mxCell id="tiI2DZFde3NhL8ovrC6l-57" value="功能验证&lt;br&gt;(不允许直接修改，使用合并)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="tiI2DZFde3NhL8ovrC6l-56">
           <mxGeometry x="0.2211" y="-4" relative="1" as="geometry">
-            <mxPoint x="9" y="-23" as="offset" />
+            <mxPoint x="29" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tiI2DZFde3NhL8ovrC6l-7" value="创建分支XX模块feature-name&lt;br&gt;（按功能或迭代创建分支）" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;strokeColor=#FF3333;" edge="1" parent="1">
@@ -186,11 +186,11 @@
         <mxCell id="tiI2DZFde3NhL8ovrC6l-45" value="tag1.0.0.0" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="848" y="100" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tiI2DZFde3NhL8ovrC6l-55" value="测试完成，合并到develop" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="tiI2DZFde3NhL8ovrC6l-55" value="测试完成，合并到develop" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="tiI2DZFde3NhL8ovrC6l-54">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="293" y="425.5" as="sourcePoint" />
+            <mxPoint x="320" y="430" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="378" y="425.5" />
+              <mxPoint x="300" y="426" />
             </Array>
             <mxPoint x="463" y="425.5" as="targetPoint" />
           </mxGeometry>
